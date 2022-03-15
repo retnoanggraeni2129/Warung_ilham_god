@@ -5,7 +5,7 @@ HTML &amp; CSS Website restauran
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>A014's Menu</title>
+    <title>A014's Team</title>
     <style>
       body {
         height: 7000px;
