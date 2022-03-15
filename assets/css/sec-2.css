@@ -1,0 +1,78 @@
+.section2 {
+    text-align: center;
+  }
+  .section2 h1 {
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Great Vibes", cursive;
+  }
+  .section2 h2 {
+    padding-top: 20px;
+  }
+  .kata2 {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .button {
+    background-color: #e7951b;
+    border: none;
+    color: white;
+    padding: 16px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 7px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: black;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  .button1:hover {
+    background-color: #e7951b;
+    color: white;
+  }
+
+  .container2 {
+    max-width: 100%; 
+    height: auto;
+  }
+  .container2 img {
+    width: 30%;
+  }
+
+  .boks {
+    background-color: #ffffff;
+    width: 25%;
+    height: 200px;
+    margin: -2px 10px;
+    padding: 2px 10px 2px 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .boks h3{
+    color: #e7951b;
+    font-size: 18px;
+  }
+  .content2{
+    line-height: 1.5;
+    width: 80%;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .tanda2 {
+    max-width: 100%; 
+    height: auto;
+  }
+  .tanda2 img {
+    width: 15%;
+  }
