@@ -1,0 +1,279 @@
+body {
+  /* height: 7000px; */
+  /* width: 900px; */
+  /* padding-top: 0px;
+    margin: auto; */
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 1px 5px 5px rgb(158 158 158 / 10%);
+}
+
+.logo {
+  /* width: 15%; */
+  height: 100%;
+  /* float: left; */
+}
+
+.logo img {
+  width: 180px;
+  height: 100px;
+  padding: 20px;
+  /* box-sizing: border-box; */
+}
+
+.menu {
+  /* width: 70%; */
+  height: 100%;
+  /* display: inline-block; */
+  /* margin: 0 auto; */
+}
+
+.menu ul {
+  padding: calc(50px - 9.4px) 125px;
+  /* padding: 32px 0px; */
+  /* display: contents; */
+  /* padding: 0; */
+  text-align: center;
+  margin-left: unset;
+}
+
+@media (max-width: 680px) {
+  .menu ul {
+    padding: 32px 0px;
+  }
+}
+
+.menu li {
+  /* float: left; */
+  list-style: none;
+  padding: 0px 15px;
+  font-size: 14px;
+  color: rgb(36, 30, 22);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 3px;
+  margin-bottom: unset;
+}
+
+.menu li a:link {
+  color: rgb(36, 30, 22);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.menu li a:visited {
+  color: rgb(36, 30, 22);
+}
+
+.shop {
+  /* width: 15%; */
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+
+.shop img {
+  height: 100px;
+  width: 90px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Use a media query to add a break point at 250px: */
+@media screen and (max-width: 250px) {
+  .logo .menu .shop .top-body {
+    width: 100%;
+  }
+}
+
+.top-body {
+  width: 100%;
+  padding-top: 100px;
+  z-index: 0;
+  box-sizing: border-box;
+  padding: 5em;
+  padding-top: 1em;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media (max-width: 640px) {
+  .top-body {
+    padding: 0 3em;
+  }
+}
+
+.top-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.top-two {
+  /* width: 55%; */
+  min-height: 300px;
+  float: left;
+  box-sizing: border-box;
+  flex-direction: column;
+  /* background-color: #5dca88; */
+  /* flex-flow: nowrap; */
+}
+
+@media (max-width: 640px) {
+  .top-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.box {
+  padding: 45px 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.top-two span {
+  margin-left: 20px;
+  padding: 7px 15px;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #ffa500;
+  box-shadow: 0 7px #e69500;
+  margin-top: 20px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.massage {
+  border-radius: 8px;
+  background-color: #15a752;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 7px hsl(145deg 78% 32%);
+}
+
+.top-two h1 {
+  padding: 10px 0px 0px 25px;
+  margin-top: 2rem;
+}
+
+.top-two p {
+  padding: 0px 25px 10px 25px;
+  text-align: justify;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.top-sidebar {
+  /* width: 45%; */
+  float: left;
+  box-sizing: border-box;
+  /* flex-flow: nowrap; */
+}
+
+@media (max-width: 640px) {
+  .top-sidebar {
+    padding: 3em;
+  }
+}
+
+.top-sidebar img {
+  width: auto;
+  height: 100%;
+  max-width: 500px;
+  max-height: 300px;
+  /* min-width: 250px; */
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+@media (max-width: 640px) {
+  .top-sidebar img {
+    width: 100%;
+  }
+}
+
+.bottom-top {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  /* height: 170px; */
+  /* float: left; */
+  /* margin: 0px auto; */
+  /* box-sizing: border-box; */
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .bottom-top {
+    flex-direction: column;
+  }
+}
+
+.box-info {
+  /* float: left; */
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .box-info {
+    padding-top: 0;
+  }
+}
+
+.box-info img {
+  width: 80px;
+  /* height: 100% !important; */
+  float: left;
+  height: 100px;
+  padding: 15px 5px;
+  box-sizing: border-box;
+}
+
+.image-title {
+  width: 220px;
+  /* float: left; */
+  height: 130px;
+  padding: 5px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.image-title h5 {
+  margin-top: 0px;
+  text-align: left;
+}
+
+.image-title p {
+  text-align: left;
+  margin: 16px 0;
+  overflow-y: auto;
+}
+
+/* Use a media query to add a break point at 250px (for image in body) */
+@media screen and (min-width: 250px) {
+  .top-two .box .top-sidebar .bottom-top {
+    width: 100%;
+  }
+}
