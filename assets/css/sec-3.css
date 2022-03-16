@@ -38,6 +38,8 @@ html {
     margin-bottom: 1rem;
     /* font-weight: bold; */
     cursor: default;
+    
+    box-shadow: none;
   }
   
   .section-3 .menu-heading h1 {
