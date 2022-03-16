@@ -110,4 +110,6 @@
 
 .tanda2 img {
   width: 15%;
+  max-width: 350px;
+  min-width: 200px;
 }
